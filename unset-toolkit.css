@@ -1,8 +1,8 @@
 *,
-::before,
-::after {
-  padding: 0;
+::after,
+::before {
   margin: 0;
+  padding: 0;
 }
 
 a {
@@ -10,5 +10,27 @@ a {
 }
 
 ul {
-	list-style: none;
+  list-style: none;
+}
+
+.center_f {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center_g {
+  display: grid;
+  place-items: center;
+}
+
+.center_abs {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.m_auto {
+  margin: auto;
 }
